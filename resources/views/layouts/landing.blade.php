@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>{{ config('app.name') }} - @yield('title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="{{ config('app.name') }}, Tadika, Kindergarten" name="keywords">
+    <meta content="Lorem Ipsum" name="description">
 
     <!-- Favicon -->
     <link href="{{ asset('vendor/tadika/img/icon.ico') }}" rel="icon">
